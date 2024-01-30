@@ -7,7 +7,7 @@ SCREEN = pygame.display.set_mode((WIDTH, HEIGHT)) #the surface that everything i
 FPS = 60 #frames per second of the game
 
 max_lvl = 4 # IMPORTANT: if you want to add or unlock more levels change the max level
-
+#message across branches
 # <- Initialization Section ->
 def init():
     '''This function is used to initialize variables or objects before the game begins'''
