@@ -1,6 +1,6 @@
 # - Krishna Chauhan: Cheese Run -
 import pygame, math, random
-
+# made some changes
 #Pygame Global Variables
 WIDTH, HEIGHT = (1280, 720) #size of the screen
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT)) #the surface that everything is drawn on
@@ -9,7 +9,7 @@ FPS = 60 #frames per second of the game
 max_lvl = 4 # IMPORTANT: if you want to add or unlock more levels change the max level
 
 # <- Initialization Section ->
-def init():
+def init(): #okay some changes made
     '''This function is used to initialize variables or objects before the game begins'''
     initImages() # Images I Used
     initFont() # Fonts I Used
